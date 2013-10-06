@@ -5392,4 +5392,7 @@ button.close {
   .custom #fixed-social-icons a.social-twitter { background: url('images/YOUR_RSS_IMAGE_FILENAME') 0 0 no-repeat; }
   .custom #fixed-social-icons a.social-rss { background: url('images/YOUR_RSS_IMAGE_FILENAME') 0 0 no-repeat; }
   .custom #fixed-social-icons a.social-linkedin { background: url('images/YOUR_LINKEDIN_IMAGE_FILENAME') 0 0 no-repeat; }
-  .custom #fixed-social-icons a.social-facebook { background: url('images/YOUR_FB_IMAGE_FILENAME') 0 0 no-repeat; }
+  .custom #fixed-social-icons a.social-wordpress { background: url('images/YOUR_FB_IMAGE_FILENAME') 0 0 no-repeat; }
+  .custom #fixed-social-icons a.social-lastfm { background: url('images/YOUR_FB_IMAGE_FILENAME') 0 0 no-repeat; }
+  .custom #fixed-social-icons a.social-youtube { background: url('images/YOUR_FB_IMAGE_FILENAME') 0 0 no-repeat; }
+  
