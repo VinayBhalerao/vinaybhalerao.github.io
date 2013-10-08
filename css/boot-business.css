@@ -311,4 +311,8 @@ footer {
     padding-top: 70px;
   }
 }
+
+.para-font{
+font-family: verdana;
+font-size: x-small}
 /* End : Responsive CSS section */
