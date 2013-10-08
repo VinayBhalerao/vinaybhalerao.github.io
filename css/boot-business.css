@@ -18,7 +18,7 @@
   background: url('../img/5.jpg');
 }
 .navbar .brand-bootbus {
-	font-family: verdana;
+	font-family: Courier New;
 	font-size: 30px;
 	cursor: pointer;
 	text-shadow: none;
@@ -30,7 +30,7 @@
 	border-bottom-color: white;
 }
 .navbar .nav > li > a {
-	font-family: verdana;
+	font-family: Courier New;
 	text-shadow: none;
 	color: white;
 	font-size: 17px;
