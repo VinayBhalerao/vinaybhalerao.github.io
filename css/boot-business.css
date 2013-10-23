@@ -86,7 +86,11 @@
 /* Start: Bootbusiness specific CSS */
 .content {
   padding: 150px 0;
-  background: url('../img/5.jpg');
+  background: url('../img/off-white.jpg');
+}
+.content-para {
+  padding: 30px 0;
+  background: url('../img/off-white.jpg');
 }
 .thumbnail img {
   width: 100%;
@@ -150,7 +154,8 @@
   line-height: 22px;
 }
 .team-member-description {
-  font-family:verdana;
+  font-family:Calibri;
+  font-size: 18px;
   padding-top: 60px;
 }
 .bottom-space {
@@ -311,10 +316,7 @@ footer {
     padding-top: 70px;
   }
 }
-
-.para-font{
-font-family: Calibri;
-font-size: small}
+.sansserif {font-family: verdana;}
 /* End : Responsive CSS section */
 
 .header-lines
@@ -324,3 +326,27 @@ font-size: 20px}
 .header-para
 {font-family: Calibri;
 font-size: 15px}
+.flex-video {
+position: relative;
+padding-top: 25px;
+padding-bottom: 67.5%;
+height: 0;
+margin-bottom: 16px;
+overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+.flex-video { padding-top: 0; }
+}
