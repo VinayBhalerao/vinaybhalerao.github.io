@@ -313,6 +313,14 @@ footer {
 }
 
 .para-font{
-font-family: verdana;
-font-size: x-small}
+font-family: Calibri;
+font-size: small}
 /* End : Responsive CSS section */
+
+.header-lines
+{font-family: Calibri;
+font-size: 20px}
+
+.header-para
+{font-family: Calibri;
+font-size: 15px}
