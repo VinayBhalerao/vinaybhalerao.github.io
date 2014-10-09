@@ -801,6 +801,8 @@
   }
   .container {
     width: auto;
+   position:absolute;
+   bottom:0;
   }
   .row-fluid {
     width: 100%;
@@ -928,9 +930,7 @@
     padding: 5px;
   }
   .navbar .container {
-   width:100%; 
-   position:absolute;
-   bottom:0;
+   width:auto; 
    padding: 0;
    
     
