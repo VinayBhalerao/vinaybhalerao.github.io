@@ -14,7 +14,6 @@
 /* Start : Override Bootstrap navigation */
 .navbar-inner, footer {
   border: none;
-  position:absolute;
   padding: 15px 0;
   background: url('../img/black.jpg');
 }
