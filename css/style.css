@@ -16,9 +16,6 @@
   border: none;
   padding: 15px 0;
   background: url('../img/black.jpg');
-  position:absolute;
-  bottom:0;
-  width: 100%
 }
 .navbar .label-name {
 	font-family: Courier New;
