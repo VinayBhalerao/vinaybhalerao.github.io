@@ -801,8 +801,6 @@
   }
   .container {
     width: auto;
-   position:absolute;
-   bottom:0;
   }
   .row-fluid {
     width: 100%;
