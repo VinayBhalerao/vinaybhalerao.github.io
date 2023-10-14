@@ -15,7 +15,8 @@
     <body>
         <div class="container">
             <form action="https://www.google.com/search" class="search" id="search-bar">
-                <input type="search" placeholder="Type something..." name="q" class="search__input">
+                <!--<input type="search" placeholder="Type something..." name="q" class="search__input"> -->
+                <input placeholder="Search here" id="searchWidgetTrigger" class="search__input"/>
     
                 <div class="search__button" id="search-button">
                     <i class="ri-search-2-line search__icon"></i>
@@ -26,5 +27,12 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
+        <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+        <gen-search-widget
+          configId="ed7e6e10-73eb-4d5d-a859-633c8e15ccef"
+          triggerId="searchWidgetTrigger">
+        </gen-search-widget>
+
     </body>
 </html>
